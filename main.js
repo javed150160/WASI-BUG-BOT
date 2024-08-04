@@ -27,7 +27,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "923192173398"
+let phoneNumber = "923350986302"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -169,13 +169,13 @@ XeonBotInc.ev.on("connection.update",async  (s) => {
         	console.log(chalk.magenta(` `))
             console.log(chalk.yellow(`🌿Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2)))
 			await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ wasibugv1ᵇᵘᵍ ᵇᵒᵗ ]`)}\n\n`))
+            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ THE JK LEGEND BUG BOT ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-	        console.log(chalk.magenta(`\n${themeemoji} Telegram CHANNEL:@wasitechx`))
+	        console.log(chalk.magenta(`\n${themeemoji} Telegram : @MR_JAVAID`))
             console.log(chalk.magenta(`${themeemoji} GITHUB: Private `))
             console.log(chalk.magenta(`${themeemoji} INSTAGRAM: private `))
-            console.log(chalk.magenta(`${themeemoji} WA NUMBER: 923192173398`))
-            console.log(chalk.magenta(`${themeemoji} CREDIT: @wasitechx\n`))
+            console.log(chalk.magenta(`${themeemoji} WA NUMBER: 923350986302`))
+            console.log(chalk.magenta(`${themeemoji} CREDIT: @the jk legend\n`))
         }
         if (
             connection === "close" &&
